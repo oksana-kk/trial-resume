@@ -1260,6 +1260,10 @@ body {
 
 @media only screen and (min-width: 1000px) {
 
+.my-video-content {
+    width: 90%;
+}
+
 .container {
     max-width: var(--desktop-lg);
 }
@@ -1330,6 +1334,8 @@ body {
     align-items: flex-start;
     margin-top: 115px;
 }
+
+
 
 .front-page-laptop {
     position: absolute;
