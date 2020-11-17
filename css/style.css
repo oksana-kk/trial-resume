@@ -68,7 +68,7 @@ body {
 
 /* COMMON */
 .tablet-element {
-    display: none !important;
+    display: none;
 }
 
 .desktop-element {
@@ -76,7 +76,7 @@ body {
 }
 
 .mobile-element {
-    display: block;
+    display: block !important;
 }
 
 .accent-btn {
@@ -1037,12 +1037,8 @@ body {
     .tablet-element {
        display: block !important;
     }
-    
-    .desktop-element {
-       display: none;
-    }
 
-     .front-page-my-name {
+    .front-page-my-name {
        font-size: 36px;
        line-height: 43px;
        margin-bottom: 0;
@@ -1089,7 +1085,6 @@ body {
     
     .front-page-my-descr {
         text-align: left;
-        display: block;
     }
 
     .front-page-my-video-btn {
@@ -1273,10 +1268,6 @@ body {
 
 .desktop-element{
     display: block !important;
-}
-
-.mobile-element {
-    display: none;
 }
 
 .swiper-container {
