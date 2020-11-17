@@ -72,11 +72,11 @@ body {
 }
 
 .desktop-element {
-    display: none !important;
+    display: none;
 }
 
 .mobile-element {
-    display: block !important;
+    display: block;
 }
 
 .accent-btn {
